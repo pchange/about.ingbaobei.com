@@ -22,8 +22,14 @@ $(document).ready(function() {
       if( index === 3 || index === 4 || index === 5 || index === 6 || index === 7 || index === 8 || index === 9){
         var audio = document.getElementById('audio-6');
         audio.play();
-
+        $('#audio-1, #audio-2, #audio-3, #audio-4, #audio-5').each(function(index, elem) {
+          if (elem && elem.pause) {
+            elem.pause();
+            // elem.load();
+          }
+        });
         // volumeDownElemAudio( audio );
+
       } else {
         stopAllAudio();
         endedAudio();
