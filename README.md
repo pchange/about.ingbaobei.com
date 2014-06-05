@@ -1,7 +1,7 @@
 about.ingbaobei.com
 ===================
 
-关于盈保倍。 [about.ingbaobei.com](http://mms.ingbaobei.com/index.html)  
+关于盈保倍。 [about.ingbaobei.com](http://about.ingbaobei.com/index.html)  
 这个是github 上面的查看地址 [http://ingbaobeigroup.github.io/about.ingbaobei.com](http://ingbaobeigroup.github.io/about.ingbaobei.com)   [http://abouttest.ingbaobei.com/](http://abouttest.ingbaobei.com/)  
 
 ------
@@ -102,7 +102,7 @@ http://你的ip/
 http://about.ingbaobei.com/
 ```
 
-打开，就能查看。 [最新一期掐这里](http://about.ingbaobei.com/)  
+打开，就能查看。 [这里](http://about.ingbaobei.com/)  
 没啥错误的话，就可以了。如果有错误。那就只能重新发布了。肯定是操作失误就对了。
 
 ##提交版本
