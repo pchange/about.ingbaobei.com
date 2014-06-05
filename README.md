@@ -68,7 +68,6 @@ $ anywhere 80
       jquery-ui.min.js: 自己开发版本的jqueryui
       qing-app.js: 这个东西的的开发js
       qing-app.min.js: 上面那个压缩一下。
-
     \less:
       jquery.fullPage.less: 看人家的库吧。
       qing-app.less: 开发less
