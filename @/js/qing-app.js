@@ -1,13 +1,4 @@
 location.hash="#1";
-// setTimeout(function(){});
-// var dataForWeixin = {
-//   appId:"",
-//   MsgImg: "http://qing-app.qiniudn.com/@/icon/share-logo.png",
-//   TLImg: "http://qing-app.qiniudn.com/@/icon/share-logo.png",
-//   url: "http://qing-app.qiniudn.com/@/icon/share-logo.png",
-//   title: "专业保险定制化比较平台-盈保倍",
-//   desc: "专业保险定制化比较平台----盈保倍，谁说我在卖保险？"
-// };
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
@@ -272,13 +263,13 @@ function playGif( i ){
   }
   var imgs;
   if( i === undefined ){
-    imgs = $('img[src$="gif"]');
+    imgs = $('img[src*=".gif"]');
     imgs.each(function(index, elem){
       elem.src = elem.src;
     });
   } else {
     i = i - 1;
-    imgs = $('img[src$="gif"]', $('.section').eq(i));
+    imgs = $('img[src*=".gif"]', $('.section').eq(i));
     imgs.each(function(index, elem){
       elem.src = elem.src;
     });
