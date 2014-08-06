@@ -2,7 +2,7 @@ about.ingbaobei.com
 ===================
 
 关于盈保倍。 [about.ingbaobei.com](http://about.ingbaobei.com/index.html)  
-这个是github 上面的查看地址 [http://ingbaobeigroup.github.io/about.ingbaobei.com](http://ingbaobeigroup.github.io/about.ingbaobei.com)   [http://abouttest.ingbaobei.com/](http://abouttest.ingbaobei.com/)  
+这个是github 上面的查看地址 [http://ingbaobeigroup.github.io/about.ingbaobei.com](http://ingbaobeigroup.github.io/about.ingbaobei.com)   
 
 ------
 
