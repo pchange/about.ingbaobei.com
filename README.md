@@ -19,7 +19,7 @@ about.ingbaobei.com
 
 1、保存到本地  
 ```
-git clone git://github.com/ingbaobeigroup/about.ingbaobei.com.git  
+git clone https://github.com/ingbaobeigroup/about.ingbaobei.com.git  
 ```
 
 2、到当前目录下面，使用静态文件存储，进行发布。  
@@ -48,30 +48,29 @@ $ anywhere 80
 ```
 \mms
   index.html: 主页，不用解释。
-  \@
-    \audio: 录音
-    \css: css的文件夹
-      qing-app.css: 网站开发css
-      qing-app.min.css: 网站压缩css
-    \icon: 存放图片的
-      图片就不一一说明了，看到就知道了。
-    \icon.png24: 存放图片的，以前采用的版本，为 png24 的版本，后来全部采用 png8 的版本。
-      图片就不一一说明了，看到就知道了。
-    \js: js文件夹
-      about.ingbaobei.com.js: 生产非压缩JS
-      about.ingbaobei.com.min.js: 生产压缩JS
-      jquery.fullPage.js: 看本来github项目组
-      jquery.fullPage.min.js: 看本来github项目组
-      jquery.min.1.8.3.js: 这个啊，用来备份的。
-      jquery.min.js: 网站压缩的东西。
-      jquery-ui.min.1.9.1.js: 刚发jqueryui
-      jquery-ui.min.js: 自己开发版本的jqueryui
-      qing-app.js: 这个东西的的开发js
-      qing-app.min.js: 上面那个压缩一下。
-    \less:
-      jquery.fullPage.less: 看人家的库吧。
-      qing-app.less: 开发less
-    robots.txt: 搜索机器人用到的。
+  \audio: 录音
+  \css: css的文件夹
+    index.css: 网站开发css
+    index.min.css: 网站压缩css
+  \icon: 存放图片的
+    图片就不一一说明了，看到就知道了。
+  \icon.png24: 存放图片的，以前采用的版本，为 png24 的版本，后来全部采用 png8 的版本。已经删掉
+    图片就不一一说明了，看到就知道了。
+  \js: js文件夹
+    about.ingbaobei.com.index.js: 生产非压缩JS
+    about.ingbaobei.com.index.min.js: 生产压缩JS
+    jquery.fullPage.js: 看本来github项目组
+    jquery.fullPage.min.js: 看本来github项目组
+    jquery.min.1.8.3.js: 这个啊，用来备份的。
+    jquery.min.js: 网站压缩的东西。
+    jquery-ui.min.1.9.1.js: 刚发jqueryui
+    jquery-ui.min.js: 自己开发版本的jqueryui
+    index.js: 这个东西的的开发js
+    index.min.js: 上面那个压缩一下。
+  \less:
+    jquery.fullPage.less: 看人家的库吧。
+    index.less: 开发less
+  robots.txt: 搜索机器人用到的。
 ```
 
 

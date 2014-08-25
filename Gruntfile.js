@@ -4,14 +4,14 @@ module.exports = function(grunt) {
 
     concat: {
       build: {
-        src: ['./@/js/jquery.min.js', './@/js/jquery-ui.min.js', './@/js/jquery.fullPage.min.js', './@/js/qing-app.js'],
-        dest: './@/js/about.ingbaobei.com.js'
+        src: ['js/jquery.min.js', 'js/jquery-ui.min.js', 'js/jquery.fullPage.min.js', 'js/index.js'],
+        dest: 'js/about.ingbaobei.com.index.js'
       }
     },
     uglify: {
       build: {
-        src: ['./@/js/about.ingbaobei.com.js'],
-        dest: './@/js/about.ingbaobei.com.min.js'
+        src: ['js/about.ingbaobei.com.index.js'],
+        dest: 'js/about.ingbaobei.com.index.min.js'
       }
     }
   });
