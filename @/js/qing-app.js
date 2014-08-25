@@ -1,4 +1,4 @@
-location.hash="#1";
+// location.hash="#1";
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
